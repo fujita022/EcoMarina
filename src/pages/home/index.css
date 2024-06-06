@@ -10,12 +10,14 @@ body, html {
   text-align: center;
 }
 header{
+  position: static;
   display: flex;
   justify-content: center;
   gap: 200px;
   border: 1px solid white;
   background-color: rgb(255, 255, 255);
 }
+
 .secoes-header{
   display: flex;
   align-items: center;
