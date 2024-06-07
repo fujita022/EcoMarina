@@ -45,7 +45,6 @@ header{
   margin: 5px;
   border-color:#0038FF;
   border: 1px solid;
-  width: 
 }
 
 h2{
@@ -124,7 +123,7 @@ section p{
 
 section h1{
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
