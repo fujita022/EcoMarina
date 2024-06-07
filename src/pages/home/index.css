@@ -10,7 +10,8 @@ body, html {
 .container {
   text-align: center;
 }
-
+.ecomarina {
+}
 .container header {
   background-color: white;
   position: sticky;
@@ -22,7 +23,7 @@ header{
   position: static;
   display: flex;
   justify-content: center;
-  gap: 200px;
+  gap: 50px;
   border: 1px solid white;
   background-color: rgb(255, 255, 255);
 }
@@ -32,6 +33,19 @@ header{
   align-items: center;
   gap: 25px;
   padding-left: 0px;
+  list-style: none;
+}
+.secoes-header a{
+  font-size: 15px;
+  cursor:pointer;
+}
+
+.bntJuntar {
+  margin-left: 80px;
+  margin: 5px;
+  border-color:#0038FF;
+  border: 1px solid;
+  width: 
 }
 
 h2{
