@@ -5,10 +5,12 @@ body, html {
   align-items: center;
   justify-content: center;
   background-color: rgb(255, 255, 255);
+  zoom: 1.1;
 }
 .container {
   text-align: center;
 }
+
 .container header {
   background-color: white;
   position: sticky;
@@ -40,20 +42,8 @@ header{
 .bntJuntar {
   margin-left: 80px;
   margin: 5px;
-  padding: 3px;
-  background-color: #0037ff93;
-  border: 1px solid white;
-  border-radius: 6px;
-}
-
-.bntJuntar:hover{
-  color: white;
-
-}
-
-.bntJuntar:active{
-  background-color: white;
-  transition: all 0.3s;
+  border-color:#0038FF;
+  border: 1px solid;
 }
 
 h2{
@@ -160,4 +150,3 @@ a{
 a:hover{
   color: #0038FF;
 }
-
