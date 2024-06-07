@@ -165,6 +165,25 @@ a:hover{
 footer{
   display: flex;
   padding: 100px;
-  background-color: rgba(0, 0, 0, 0.171);
-  justify-content: space-between;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(63,121,175,0.6138830532212884) 98%);
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+footer h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #0038FF;
+  font-size: 50px;
+}
+ footer h6{
+  font-size: 30px;
+  color: rgb(86, 86, 88);
+ }
+footer ul li{
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
 }
