@@ -40,10 +40,15 @@ header{
 }
 
 .bntJuntar {
-  margin-left: 80px;
-  margin: 5px;
-  border-color:#0038FF;
+  color: white;
+  margin-left: 40px;
+  padding: 8px;
+  border-radius: 15px;
+  background-color:#0038FF;
   border: 1px solid;
+}
+.bntJuntar:hover{
+  background-color: white;
 }
 
 h2{
