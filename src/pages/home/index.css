@@ -39,11 +39,17 @@ header{
   cursor:pointer;
 }
 
-.bntJuntar:active{
+.bntJuntar {
   color: white;
-  border-color:#0038FF;
+  margin-left: 40px;
+  padding: 8px;
+  border-radius: 15px;
+  background-color:#0038FF;
   border: 1px solid;
 
+}
+.bntJuntar:hover{
+  background-color: white;
 }
 
 h2{
